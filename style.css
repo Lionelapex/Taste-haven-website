@@ -36,7 +36,7 @@ ul {
     font-weight: bold;
 }
 
-@media (max-width: 402px) {
+@media (max-width: 600px) {
     .logo {
         display: none;
     }
@@ -276,6 +276,72 @@ ul {
     .menu-grid {
         flex-direction: column;
         align-items: center;
+    }
+
+    /* Landing Section */
+    .landing {
+        height: 100vh; /* Full viewport height on mobile */
+    }
+
+    .landing-content h1 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    .landing-content p {
+        font-size: 1rem;
+    }
+
+    /* Features Section */
+    .features {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    /* Footer */
+    .footer-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-column {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    /* Menu Page */
+    .menu-grid {
+        grid-template-columns: 1fr; /* Single column on mobile */
+        padding: 0 1rem;
+    }
+
+    /* Ensure images don't overflow */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Add horizontal padding to sections */
+    section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* Additional mobile optimization */
+@media (max-width: 480px) {
+    /* Header/Navigation */
+    .header {
+        padding: 0.5rem;
+    }
+
+    .navbar ul {
+        gap: 0.5rem;
+    }
+
+    .navbar a {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.9rem;
     }
 }
 
