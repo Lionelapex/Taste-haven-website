@@ -58,6 +58,11 @@ ul {
     background-color: #FEC6A1; /* Soft Orange */
 }
 
+.navbar a.active {
+    background-color: #FEC6A1;
+    color: #403E43;
+    font-weight: bold;
+}
 /* Landing Section */
 .landing {
     height: 70vh;
