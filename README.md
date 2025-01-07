@@ -2,6 +2,10 @@
 
 A modern, responsive restaurant website showcasing Taste Haven's menu, services, and online ordering capabilities.
 
+## 🔗 Live Website
+
+[Visit Taste Haven](https://taste-haven.netlify.app) 
+
 ## 🌟 Features
 
 - **Responsive Design**: Fully responsive layout that works on desktop, tablet, and mobile devices
