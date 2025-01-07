@@ -4,7 +4,7 @@ A modern, responsive restaurant website showcasing Taste Haven's menu, services,
 
 ## 🔗 Live Website
 
-[Visit Taste Haven](https://lionelapex.github.io/Taste-haven-website/) 
+[Visit Taste Haven](https://taste-havenn.netlify.app/) 
 
 ## 🌟 Features
 
