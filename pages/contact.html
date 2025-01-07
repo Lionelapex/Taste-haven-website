@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+
+     <!-- Header Section -->
+     <header class="header">
+        <div class="logo">Taste Haven</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/menu.html">Menu</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+
+  <!-- Contact Section -->
+  <section class="container mx-auto px-4 py-16">
+    <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Contact Form -->
+      <div class="bg-white shadow rounded-lg p-8">
+        <h3 class="text-xl font-bold mb-4">Get in Touch</h3>
+        <form action="#" method="POST" class="space-y-4">
+          <div>
+            <label for="name" class="block font-medium">Name</label>
+            <input type="text" id="name" name="name" class="w-full border border-gray-300 rounded-lg px-4 py-2" placeholder="Your name" required>
+          </div>
+          <div>
+            <label for="email" class="block font-medium">Email</label>
+            <input type="email" id="email" name="email" class="w-full border border-gray-300 rounded-lg px-4 py-2" placeholder="Your email" required>
+          </div>
+          <div>
+            <label for="message" class="block font-medium">Message</label>
+            <textarea id="message" name="message" rows="4" class="w-full border border-gray-300 rounded-lg px-4 py-2" placeholder="Your message" required></textarea>
+          </div>
+          <button type="submit" class="w-full bg-orange-500 text-white font-bold py-2 rounded-lg hover:bg-orange-600">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="bg-white shadow rounded-lg p-8">
+        <h3 class="text-xl font-bold mb-4">Information</h3>
+        <p class="mb-4"><strong>Address:</strong><br>123 Food Street, Cuisine City, CC 12345</p>
+        <p class="mb-4"><strong>Phone:</strong><br>(555) 123-4567</p>
+        <p class="mb-4"><strong>Email:</strong><br>info@tastehaven.com</p>
+        <p><strong>Hours:</strong><br>Monday - Friday: 11am - 10pm<br>Saturday - Sunday: 12pm - 11pm</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-column">
+            <h3>Taste Haven</h3>
+            <p>Delicious takeout food made with love.</p>
+        </div>
+        <div class="footer-column">
+            <h3>Hours</h3>
+            <p>Monday - Friday: 11am - 10pm<br>Saturday - Sunday: 12pm - 11pm</p>
+        </div>
+        <div class="footer-column">
+            <h3>Contact</h3>
+            <p>123 Food Street<br>Phone: (555) 123-4567<br>Email: info@tastehaven.com</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2024 Taste Haven. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+
+</html>
